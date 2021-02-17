@@ -3,6 +3,7 @@
 This file contains the instructions on how to set up a Lichess bot, using the official Lichess API and Stockfish 12 chess engine. BOT DOES NOT PLAY VARIANTS.
 
 1) Create API access token and upgrade to BOT account (will allow bot to play with the Lichess API) -- BOT ACCOUNTS CAN NOT HAVE PLAYED ANY GAMES BEFORE BEING CONVERTED TO A BOT ACCOUNT
+	
 	--  a) Navigate to: https://lichess.org/account/oauth/token
 	
 	--  b) Click on the blue + button
