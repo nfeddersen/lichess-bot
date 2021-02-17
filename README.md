@@ -20,7 +20,7 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	
 	--  h) Add your token to the following command, then paste it into the Terminal and press Enter: 
 
-		curl -d '' https://lichess.org/api/bot/account/upgrade -H "Authorization: Bearer 	REPLACE_THIS_WITH_TOKEN"
+		curl -d '' https://lichess.org/api/bot/account/upgrade -H "Authorization: Bearer REPLACE_THIS_WITH_TOKEN"
 	
 	--  i) If you have followed the steps correctly you will get a OK response from the Lichess server. Your account is now a Bot and should have the purple BOT title next to its username.
 
