@@ -20,7 +20,7 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	
 	--  h) Add your token to the following command, then paste it into the Terminal and press Enter: 
 
-	curl -d '' https://lichess.org/api/bot/account/upgrade -H "Authorization: Bearer 	REPLACE_THIS_WITH_TOKEN"
+		curl -d '' https://lichess.org/api/bot/account/upgrade -H "Authorization: Bearer 	REPLACE_THIS_WITH_TOKEN"
 	
 	--  i) If you have followed the steps correctly you will get a OK response from the Lichess server. Your account is now a Bot and should have the purple BOT title next to its username.
 
@@ -38,7 +38,8 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 
 4) Check if PIP is installed
 	
-	--  a) run command: python -m pip --version
+	--  a) run command: 
+		python -m pip --version
 	
 	--  b) Unix systems may require python3 instead of python
 	
@@ -48,7 +49,8 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	
 		-- b) Select extracted Bot folder and copy its full path
 	
-		--  c) Enter the following command into the terminal and hit enter: cd PASTE_COMPLETE_PATH_HERE
+		--  c) Enter the following command into the terminal and hit enter: 
+			cd PASTE_COMPLETE_PATH_HERE
 	
 		--  d) Ensure you have changed your current directory then enter this command and hit enter:
 			python get-pip.py
