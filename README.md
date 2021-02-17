@@ -78,6 +78,8 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	--  b) Anywhere that says BOT_NAME or YOUR_BOT_NAME replace with your bots username
 	
 	--  c) Replace text within quotes at LINE 9 with your API key you downloaded earlier. THE QUOTES MUST REMAIN AROUND KEY OR BOT WILL NOT WORK!!
+	
+	-- d) Save and exit
 
 8) Run your Bot!
 	
