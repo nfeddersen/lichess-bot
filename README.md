@@ -51,6 +51,7 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	-- 2) Select extracted Bot folder and copy its full path
 
 	--  3) Enter the following command into the terminal and hit enter: 
+		
 		cd PASTE_COMPLETE_PATH_HERE
 
 	--  4) Ensure you have changed your current directory then enter this command and hit enter:
