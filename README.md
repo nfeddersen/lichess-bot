@@ -39,39 +39,41 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 4) Check if PIP is installed
 	
 	--  a) run command: 
+		
 		python -m pip --version
 	
 	--  b) Unix systems may require python3 instead of python
 	
 	--  c) If PIP is not installed on your machine follow the following steps. Otherwise, skip to the next step:
 	
-		-- a) Open a new Terminal window
-	
-		-- b) Select extracted Bot folder and copy its full path
-	
-		--  c) Enter the following command into the terminal and hit enter: 
-			cd PASTE_COMPLETE_PATH_HERE
-	
-		--  d) Ensure you have changed your current directory then enter this command and hit enter:
-			python get-pip.py
+	-- 1) Open a new Terminal window
+
+	-- 2) Select extracted Bot folder and copy its full path
+
+	--  3) Enter the following command into the terminal and hit enter: 
+		cd PASTE_COMPLETE_PATH_HERE
+
+	--  4) Ensure you have changed your current directory then enter this command and hit enter:
+		
+		python get-pip.py
 
 5) Create Virtual Environment
 	
-	-- a) Enter the following command into the terminal (ensure you are still located in bot directory in command line, and if not run Step 4 (c)):
+	-- a) Enter the following command into the terminal (ensure you are still located in bot directory in command line, and if not run Step 4 (3)):
+		
 		python3 -m venv PASTE_COMPLETE_PATH_YOU_USED_EARLIER_HERE
 	
 	-- b)  Wait for command to complete; may take a little bit especially on older machines
 
 6) Install all neccessary packages using requirements.txt file
 	
-	--  a) This installs all the packages program needs to run properly
+	-- a) This installs all the packages program needs to run properly
 	
-	--  b) Move requirements.txt file from downloaded folder into Bot folder
-	
-	-- c ) Using your Terminal window that is still located in bot directory, enter the following command:
+	-- b) Using your Terminal window that is still located in bot directory, enter the following command:
+		
 		pip install -r requirements.txt
 	
-	--  d) You should see a message in the Terminal saying that the packages have been succesfully installed. If all packages have been installed, move onto the next step.
+	-- c) You should see a message in the Terminal saying that the packages have been succesfully installed. If all packages have been installed, move onto the next step.
 
 7) Configure Lichess-Bot files
 	
@@ -88,6 +90,7 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 	--  a) Log into your bot account if you wish for your bot to be online (simply running program does not make bot online)
 	
 	--  b) Using your terminal window you have used so far, enter the following command:
+		
 		python LichessBotMain.py
 	
 	--  c) If on a Unix system , python 3 instead of python may be required
