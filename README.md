@@ -32,11 +32,9 @@ This file contains the instructions on how to set up a Lichess bot, using the of
 
 3) Download Python
 	
-	--  a) Python is the programming language this bot is written in
+	--  a) Download the latest version from here: https://www.python.org/downloads/
 	
-	--  b) Download the latest version from here: https://www.python.org/downloads/
-	
-	--  c) This bot uses Python 3 (Python 2 does not work)
+	--  b) This bot uses Python 3 (Python 2 does not work)
 
 4) Check if PIP is installed
 	
